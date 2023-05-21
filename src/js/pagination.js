@@ -115,7 +115,7 @@ function handlerPaginationCenter(evt) {
   lastPage = getNewQuantityPages();
   if (lastPage < 3) {
     observer.disconnect();
-  } //!!!!!!!!!!!!!!!!!!!!!!!!!
+  }
 
   page = Number(evt.target.textContent);
 
